@@ -20,9 +20,9 @@ Once you have the software installed, you can run the script:
     files:          One or more PDF files to process
     --language:     The tesseract language ID code for the language model
                         to use. E.g. eng (English), deu (German) or 
-                        it (Italian). The default is eng.
+                        ita (Italian). The default is eng.
 
 An Italian-language sample file is provided in the `testdata` folder. To 
 process it, run the below command:
 
-    tess.py --language it testdata/1961_Alessandria.pdf
+    tess.py --language ita testdata/1961_Alessandria.pdf
